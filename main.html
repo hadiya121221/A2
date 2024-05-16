@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <link rel="icon" type="image/x-icon" href="https://tse2.mm.bing.net/th?id=OIP.ALbwAb6aKjFIUo9YHBTkDwHaE7&pid=Api&P=0&h=220">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1f1f1f;      /*All Sections Background color*/
+            font-size: 20px;                  /*Navbar Size*/
+            color: #ffffff;                 /*About Us Text Color*/
+        }
+
+        p {
+          font-size: 20px;                    /*About us Font Size*/
+          }
+
+        nav.navbar {
+            background: linear-gradient( #151515,#212121, #151515);
+        }
+
+
+        .navbar-brand:hover, .navbar-nav .nav-link:hover {
+            color: #b30e27e2 !important;    /*Navbar Hover Color*/
+        }
+
+        section {
+            padding: 80px;                  /*Home Section Padding*/
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #ffffff;
+        }
+                                            /*Section color*/
+        #home {                             
+            background: linear-gradient(#151515 20%, #6d0514e2 60%, #1d1d1d);
+        }
+
+        #about { 
+            background: linear-gradient(#1d1d1d 20%, #000000e2 60%, #1d1d1d);
+        }
+        #contact { 
+            background: linear-gradient(#1f1f1f 20%, #6d0514e2 60%, #121212);
+        }
+        .card { 
+            background-color: #121212;
+        }    
+        
+        .card:hover {
+            background-color: #404040;
+        }
+
+        .btn-primary {
+            background-color: #2a2929;
+            border-color: #323232;
+        }
+
+        .btn-primary:hover {
+            background-color: #9a0909;
+            border-color: #900717;
+        }
+
+        footer {
+            background-color: #151515;
+            padding: 10px 0;
+        }
+
+    </style>
+</head>
+ 
+    <!-- data-spy(Hightlight nav item when scroll), data-offset(50 pixcel above or below) -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><b>Anime World</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-pink text-white py-6">
+        <div class="container text-center">
+            <h1>Welcome to Anime World!</h1>
+            <p class="lead"><b>Explore the Fascinating World of Anime with us.</b></p>
+            <a href="#contact" class="btn btn-primary btn-lg"><b>Get in Touch!</b></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>About Us</h2>
+                    <p>Welcome to Anime World! A Heaven for enthusiasts of Japanese animation and culture! Our platform is dedicated to providing an immersive and enriching experience for anime fans of all ages and interests. you'll discover a treasure trove of content, ranging from classic masterpiece to the latest releases. Whether you're a seasoned anime aficionado or just dipping your toes into this captivating world, there's something here for everyone.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://i.pinimg.com/originals/30/b0/eb/30b0eb937f95aea46724d438059537dc.gif" alt="About Us" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" py-3">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Anime Streaming</h3>
+                            <p class="card-text">Watch your favorite anime series online.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Merchandise</h3>
+                            <p class="card-text">Get exclusive merchandise of popular anime characters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Community</h3>
+                            <p class="card-text">Join vibrant anime community. You can also join live streamings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-2">
+        <div class="container">
+            <h2 class="text-center">Anime Gallery</h2>
+            <div class="row">
+                <!-- Anime cards will be added dynamically here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form" class="py-3">
+        <div class="container">
+            <h2 class="text-center">Add Animes to Gallery</h2>
+            <form id="animeForm">
+                <input type="hidden" id="animeId" value="">
+                <div class="form-group">
+                    <label for="animeName">Anime Name</label>
+                    <input type="text" class="form-control" id="animeName" required>
+                </div>
+                <div class="form-group">
+                    <label for="animeYear">Year</label>
+                    <input type="number" class="form-control" id="animeYear" required>
+                </div>
+                <div class="form-group">
+                    <label for="animeRatings">Ratings</label>
+                    <input type="text" class="form-control" id="animeRatings" required>
+                </div>
+                <div class="form-group">
+                    <label for="animeCountry">Country</label>
+                    <input type="text" class="form-control" id="animeCountry" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-pink text-white py-5">
+        <div class="container">
+            <h2 class="text-center">For more Information</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <h4 class=>Contact Us</h4>
+                    <p>Email: animeworld@.com</p>
+                    <p>Phone: +1234567890</p>
+                    <p>Instagram: anime_world</p>
+                    <p>Twitter: @worldofanime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink text-center py-1">
+        <div class="container">
+            <p>&copy; 2024 Anime World. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script> <!-- Include the JavaScript file here -->
+    </body>
+    </html>
+
+</body>
+</html>
